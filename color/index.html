@@ -1,0 +1,95 @@
+﻿<html>
+     
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script language="JavaScript" src="js/script.js"></script>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>藐视你的小色调(同是无聊人，何必较真，不就是玩儿嘛)</title>
+    </head>
+        
+    <body onload="init()">
+        <!--<div id="times"></div>-->
+        
+        <div id="title_style">
+        	<h1>COLOR</h1>
+        </div>
+        
+        
+        
+        <div id="content_style">
+                <div class="frame_div" id="frame_div_rule">
+                    <div class="rule_title">游戏规则</div>
+                    <div class="text_style">根据显示出的不同颜色的文字，选出文字<font color="red">意思</font>对应的颜色（如图）。选对<font color="red">6</font>次，时间少者优胜。<br>
+                     所用颜色：红橙黄绿青蓝紫黑白，共计九种.
+                    </div>
+                    <div>
+                        <img src="img/instruction.jpg" align="center" height="320"/>
+                    </div>
+                    
+                </div>
+            
+            
+
+            
+            
+            	<div class="frame_div" id="frame_div_game">
+               		<div id="target_word" class="game_word_style">
+                        <!--the target word-->
+                	</div>
+                  
+                	<table align="center">
+                        <tr>
+                            <td class="block" id="block0"> <!--table data--> </td>
+                            
+                            <td class="block" id="block1"> <!--table data--> </td>
+                            
+                            <td class="block" id="block2"> <!--table data--> </td>
+                        </tr>
+                        <tr>
+                            <td class="block" id="block3"> <!--table data--> </td>
+                            
+                            <td class="block" id="block4"> <!--table data--> </td>
+                            
+                            <td class="block" id="block5"> <!--table data--> </td>
+                        </tr>
+                        <tr>
+                            <td class="block" id="block6"> <!--table data--> </td>
+                            
+                            <td class="block" id="block7"> <!--table data--> </td>
+                            
+                            <td class="block" id="block8"> <!--table data--> </td>
+                        </tr>
+                    </table>
+                </div>
+				
+				<div class="frame_div" id="frame_div_fail">
+					<div class="fail_title">小色调藐视了你<br><font color="red">失败</font></div>
+					<div class="fail_content">你用<font color="red">
+					<label id="fail_time"></label>秒</font>
+					，完成了<label id="fail_count"></label>次</font>识别！</div>
+					<div class="caibi">对于这个成绩，我只想说：“哼，彩（si sheng）笔(yi sheng)……”</div>
+				</div>
+				
+				<div class="frame_div" id="frame_div_success">
+					<div class="fail_title">你和小色调对上眼了<br><font color="red">GOOD JOB</font></div>
+					<div class="fail_content">完成<font color="red">6次</font>，你用时<font color="red">
+					<label id="success_time"></label>秒</font></div>
+					<div class="caibi">有点diao哦，敢不敢把结果晒出来！</div>
+				</div>
+        
+			
+			<div class="frame_div" id="frame_div_giveup">
+				<div class="fail_title">你真被小色调藐视了</div>
+				<div class="fail_content">你放弃了此次游戏<br>获得证书<font color="red">渣渣</font></div>
+				<div class="caibi">再来？</div>
+			</div>
+            
+        </div>
+        <input type="button" onclick="switcher()" value="开始游戏" class="btn" id="switcher_button"/>
+        <div id="time">0.00</div>
+        <div class="text_style">分享之，让更多人被藐视....</div>
+    </body>
+    
+    
+</html>

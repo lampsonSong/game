@@ -1,0 +1,86 @@
+body{
+    	background:#eedc82;
+	text-align:center;
+}
+
+#title_style{
+    color:red;
+}
+
+#game_style{
+    text-align:center;
+	background:#defda4;
+}
+
+.btn{
+	height:100px;
+    width:300px;
+    font-size:30pt;
+}
+
+.block{
+	width:200px;
+    height:150px;
+    font-size:50pt;
+    text-align:center;
+    font-weight:bold;
+    
+    text-shadow: 2px 0px 0px #000,
+    -2px 0px 0px #000,
+    0px 2px 0px #000,
+    0px -2px 0px #000;
+}
+
+.game_word_style{
+    display:block;
+	font-size:60pt;
+    font-weight:bold;
+}
+
+.rule_title{
+	font-size:30pt;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.text_style{
+	font-size:20pt;
+	text-align:center;
+    padding-bottom:30px;
+}
+
+#time{
+	font-size:100pt;
+    color:red;
+	text-align:center;
+}
+
+.fail_title{
+	font-size:35pt;
+    text-align:center;
+    font-weight:bold;
+    padding-bottom:140px;
+}
+
+.fail_content{
+	font-size:30pt;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.caibi{
+	font-size:20pt;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.frame_div{
+	width:100%;
+    border:1px solid #000;
+    text-align:center;
+}
+
+#content_style{
+	margin:0 auto;
+	padding:0 auto;
+}
