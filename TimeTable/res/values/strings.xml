@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">TimeTable</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="eight">08:00–09:00</string>
+    <string name="nine">09:00–10:00</string>
+    <string name="ten">10:00–11:00</string>
+    <string name="eleven">11:00–12:00</string>
+    <string name="twelve">12:00–13:00</string>
+    <string name="thirteen">13:00–14:00</string>
+    <string name="fourteen">14:00–15:00</string>
+    <string name="fifteen">15:00–16:00</string>
+    <string name="sixteen">16:00–17:00</string>
+    <string name="seventeen">17:00–18:00</string>
+    <string name="eighteen">18:00–19:00</string>
+    <string name="nineteen">19:00–20:00</string>
+    <string name="twenty">20:00–21:00</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_all_day">AllDayActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_scroll_course">ScrollCourseActivity</string>
+    <string name="synchronize_text">同步课表</string>
+    <string name="set_size_text">设置字体大小</string>
+    <string name="set_bg_text">进入内容界面</string>
+    <string name="logoff_text">退出</string>
+    <string name="title_activity_syn">SynActivity</string>
+    <string name="syn_ing">正在同步</string>
+    <string name="empty_warning">表格不能为空</string>
+    <string name="wrong_warning">请检查用户名和密码</string>
+    <string name="noMoreIn">不能再缩小</string>
+    <string name="noMoreOut">不能再放大</string>
+    <string name="pass_view_text">密码</string>
+    <string name="name_view_text">学号</string>
+    <string name="hint">以字母开头</string>
+    <string name="syn_warning">请先同步课表</string>
+    <string name="press_again">再按一次保存字体大小</string>
+    <string name="changeBG">更改背景图片</string>
+
+</resources>

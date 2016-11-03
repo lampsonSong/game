@@ -1,0 +1,84 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=4876, tid=3120
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.0-b15 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01a5a400):  JavaThread "Unknown thread" [_thread_in_vm, id=3120, stack(0x00370000,0x003c0000)]
+
+Stack: [0x00370000,0x003c0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x01a5a400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3120, stack(0x00370000,0x003c0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	E:\Java jdk\bin\javaw.exe
+0x77140000 - 0x7727c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x77280000 - 0x77354000 	C:\Windows\system32\kernel32.dll
+0x75000000 - 0x7504b000 	C:\Windows\system32\KERNELBASE.dll
+0x75870000 - 0x75910000 	C:\Windows\system32\ADVAPI32.dll
+0x75910000 - 0x759bc000 	C:\Windows\system32\msvcrt.dll
+0x75c20000 - 0x75c39000 	C:\Windows\SYSTEM32\sechost.dll
+0x757c0000 - 0x75861000 	C:\Windows\system32\RPCRT4.dll
+0x756f0000 - 0x757b9000 	C:\Windows\system32\USER32.dll
+0x769f0000 - 0x76a3e000 	C:\Windows\system32\GDI32.dll
+0x77360000 - 0x7736a000 	C:\Windows\system32\LPK.dll
+0x75350000 - 0x753ed000 	C:\Windows\system32\USP10.dll
+0x769c0000 - 0x769df000 	C:\Windows\system32\IMM32.DLL
+0x768f0000 - 0x769bc000 	C:\Windows\system32\MSCTF.dll
+0x7c340000 - 0x7c396000 	E:\Java jdk\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db06000 	E:\Java jdk\jre\bin\client\jvm.dll
+0x75050000 - 0x75082000 	C:\Windows\system32\WINMM.dll
+0x74eb0000 - 0x74efb000 	C:\Windows\system32\apphelp.dll
+0x6d330000 - 0x6d338000 	E:\Java jdk\jre\bin\hpi.dll
+0x75a40000 - 0x75a45000 	C:\Windows\system32\PSAPI.DLL
+0x6d860000 - 0x6d86c000 	E:\Java jdk\jre\bin\verify.dll
+0x6d3d0000 - 0x6d3ef000 	E:\Java jdk\jre\bin\java.dll
+0x6d8a0000 - 0x6d8af000 	E:\Java jdk\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dvce.launchers=org.eclipse.ve.internal.java.vce.launcher.remotevm.JFCLauncher -Dvce.launcher.class=com.example.timetable.SettingActivity -Dfile.encoding=GBK -Xbootclasspath:E:\Android_develop\android-sdk-windows\platforms\android-8\android.jar 
+java_command: org.eclipse.ve.internal.java.vce.launcher.remotevm.JavaBeansLauncher
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=E:\Java jdk\bin
+CLASSPATH=E:\Java jdk\bin;E:\MySQL\connector\mysql-connector-java-5.1.10\mysql-connector-java-5.1.10-bin;E:\kuaipanclient\;.
+PATH=E:/jre/bin/client;E:/jre/bin;E:/jre/lib/i386;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\Common Files\Ulead Systems\MPEG;E:\激活\优化大师\Windows7Master;E:\激活\install\Windows7Master;E:\Java jdk\bin;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;E:\Android_develop\android-sdk-windows\platform-tools;E:\svn\subversion\bin;E:\CTEX\UserData\miktex\bin;E:\CTEX\MiKTeX\miktex\bin;E:\CTEX\CTeX\ctex\bin;E:\CTEX\CTeX\cct\bin;E:\CTEX\CTeX\ty\bin;E:\CTEX\Ghostscript\gs8.70\bin;E:\CTEX\GSview\gsview;E:\CTEX\WinEdt;C:\Program Files\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;E:\svn\bin;E:\matlabR2009\bin;E:\matlabR2009\bin\win32;E:\FYP-OPENNI-INSTALL\Bin;E:\FYP-NITE-INSTALL\bin;E:\CGAL\CGAL\CGAL-3.9\auxiliary\gmp\lib;E:\Java jdk\bin;E:\C++ insatall\安装\Tools\WinNT;E:\C++ insatall\安装\MSDev98\Bin;E:\C++ insatall\安装\Tools;E:\C++ insatall\VC98\bin;E:\Android_develop\android-sdk-windows\tools;E:\OpenMesh\OpenMesh 2.3\include;E:\Eclipse\eclipse;
+USERNAME=lampson
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7600 
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 7 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2091636k(705416k free), swap 4183272k(2182528k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.0-b15) for windows-x86 JRE (1.6.0_10-rc2-b32), built on Sep 12 2008 00:52:11 by "java_re" with MS VC++ 7.1
+
+time: Sun Feb 17 17:21:06 2013
+elapsed time: 0 seconds
+

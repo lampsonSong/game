@@ -1,0 +1,122 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+     >
+	
+    <TableRow 
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+    
+    <TextView
+        android:id="@+id/detail_days"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/monday"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    
+    </TableRow>
+    
+    <TableRow 
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+    <TextView 
+        android:id="@+id/detail_time"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/eight"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        />
+    </TableRow>
+    
+    <TableRow 
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+    
+    <TextView
+        android:id="@+id/detail_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_weight="1"
+		/>
+    
+    
+    <EditText
+        android:id="@+id/detail_edit_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_weight="1"
+         />
+    
+    </TableRow>
+    
+    <TableRow 
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+    <TextView android:layout_weight="1"
+        android:id="@+id/take_space"
+        android:visibility="gone"
+         />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_weight="1"
+        android:background="@drawable/yes"
+        android:visibility="gone"
+         />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_weight="1"
+        android:background="@drawable/no"
+        android:visibility="gone"
+         />
+
+	
+	
+	</TableRow>
+	
+    <TableRow 
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+	<TextView android:layout_weight="1" />
+	<TextView android:layout_weight="1" />
+	
+    <Button
+        android:id="@+id/backButton"
+        android:background="@drawable/goback"
+        android:layout_weight="1"
+        />
+	<TextView android:layout_weight="1" />
+    
+    </TableRow>
+    
+    
+    <TableRow 
+        android:layout_weight="2"
+        ></TableRow>
+    
+</TableLayout>

@@ -1,0 +1,107 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=9004, tid=9368
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_25-b06
+# Java VM: Java HotSpot(TM) Client VM (20.0-b11 mixed mode windows-x86 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01b39800):  JavaThread "Unknown thread" [_thread_in_vm, id=9368, stack(0x00380000,0x003d0000)]
+
+Stack: [0x00380000,0x003d0000],  sp=0x003cf86c,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x13363a]
+V  [jvm.dll+0x12e59b]
+V  [jvm.dll+0x164ce]
+V  [jvm.dll+0x17cff]
+V  [jvm.dll+0x26de5]
+V  [jvm.dll+0x27626]
+V  [jvm.dll+0x279d5]
+V  [jvm.dll+0x27a69]
+V  [jvm.dll+0x27b2c]
+V  [jvm.dll+0x27baa]
+V  [jvm.dll+0x27c8d]
+V  [jvm.dll+0x27f59]
+V  [jvm.dll+0x6c593]
+V  [jvm.dll+0x6c96c]
+V  [jvm.dll+0xf9c1c]
+V  [jvm.dll+0x1184bb]
+V  [jvm.dll+0x9eba0]
+C  [javaw.exe+0x1657]
+C  [javaw.exe+0x1e2c]
+C  [javaw.exe+0x8614]
+C  [kernel32.dll+0x51114]  BaseThreadInitThunk+0x12
+C  [ntdll.dll+0x5b299]  RtlInitializeExceptionChain+0x63
+C  [ntdll.dll+0x5b26c]  RtlInitializeExceptionChain+0x36
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x01b39800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=9368, stack(0x00380000,0x003d0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	E:\jre\bin\javaw.exe
+0x772f0000 - 0x7742c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x762c0000 - 0x76394000 	C:\Windows\system32\kernel32.dll
+0x751b0000 - 0x751fa000 	C:\Windows\system32\KERNELBASE.dll
+0x763d0000 - 0x76470000 	C:\Windows\system32\ADVAPI32.dll
+0x75680000 - 0x7572c000 	C:\Windows\system32\msvcrt.dll
+0x77500000 - 0x77519000 	C:\Windows\SYSTEM32\sechost.dll
+0x75e10000 - 0x75eb1000 	C:\Windows\system32\RPCRT4.dll
+0x75d40000 - 0x75e09000 	C:\Windows\system32\USER32.dll
+0x75cf0000 - 0x75d3e000 	C:\Windows\system32\GDI32.dll
+0x77430000 - 0x7743a000 	C:\Windows\system32\LPK.dll
+0x76060000 - 0x760fd000 	C:\Windows\system32\USP10.dll
+0x77450000 - 0x7746f000 	C:\Windows\system32\IMM32.DLL
+0x76140000 - 0x7620c000 	C:\Windows\system32\MSCTF.dll
+0x7c340000 - 0x7c396000 	E:\jre\bin\msvcr71.dll
+0x6d7f0000 - 0x6da9f000 	E:\jre\bin\client\jvm.dll
+0x75290000 - 0x752c2000 	C:\Windows\system32\WINMM.dll
+0x75060000 - 0x750ab000 	C:\Windows\system32\apphelp.dll
+0x6d7a0000 - 0x6d7ac000 	E:\jre\bin\verify.dll
+0x6d320000 - 0x6d33f000 	E:\jre\bin\java.dll
+0x77440000 - 0x77445000 	C:\Windows\system32\PSAPI.DLL
+0x6d7e0000 - 0x6d7ef000 	E:\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dvce.launchers=org.eclipse.ve.internal.java.vce.launcher.remotevm.JFCLauncher -Dvce.launcher.class=com.example.timetable.MainActivity -Dfile.encoding=GBK -Xbootclasspath:E:\Android_develop\android-sdk-windows\platforms\android-8\android.jar 
+java_command: org.eclipse.ve.internal.java.vce.launcher.remotevm.JavaBeansLauncher
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=E:\Java jdk\bin
+CLASSPATH=E:\Java jdk\bin;E:\MySQL\connector\mysql-connector-java-5.1.10\mysql-connector-java-5.1.10-bin;E:\kuaipanclient\;.
+PATH=E:/jre/bin/client;E:/jre/bin;E:/jre/lib/i386;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\Common Files\Ulead Systems\MPEG;E:\激活\优化大师\Windows7Master;E:\激活\install\Windows7Master;E:\Java jdk\bin;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;E:\Android_develop\android-sdk-windows\platform-tools;E:\svn\subversion\bin;E:\CTEX\UserData\miktex\bin;E:\CTEX\MiKTeX\miktex\bin;E:\CTEX\CTeX\ctex\bin;E:\CTEX\CTeX\cct\bin;E:\CTEX\CTeX\ty\bin;E:\CTEX\Ghostscript\gs8.70\bin;E:\CTEX\GSview\gsview;E:\CTEX\WinEdt;C:\Program Files\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;E:\svn\bin;E:\Java jdk\bin;E:\C++ insatall\安装\Tools\WinNT;E:\C++ insatall\安装\MSDev98\Bin;E:\C++ insatall\安装\Tools;E:\C++ insatall\VC98\bin;E:\Android_develop\android-sdk-windows\tools;E:\Eclipse\eclipse;
+USERNAME=lampson
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7600 
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 23 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1
+
+Memory: 4k page, physical 2091636k(414888k free), swap 4183272k(1649556k free)
+
+vm_info: Java HotSpot(TM) Client VM (20.0-b11) for windows-x86 JRE (1.6.0_25-b06), built on Apr 14 2011 01:04:32 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Thu Aug 23 10:36:13 2012
+elapsed time: 0 seconds
+
